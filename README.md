@@ -6,15 +6,25 @@ datapackage:
   - path: http://opendatacommons.org/licenses/pddl/
     title: Open Data Commons Public Domain Dedication and License v1.0
   resources:
-  - path: data.csv
+  - path: BTC-USD.csv
     title: C02 PPM per decade
     name: c02-per-decade
     format: csv
     schema:
       fields:
-      - name: year
+      - name: Date
         type: date
-      - name: co2
+      - name: Open
+        type: number
+      - name: High
+        type: number
+      - name: Low
+        type: number
+      - name: Close
+        type: number
+      - name: Adj Close
+        type: number
+      - name: Volume
         type: number
 ---
 
